@@ -39,7 +39,7 @@ fun main() {
     }while(true)
 }
 
-private fun calculatePrice(orig: Float, x:Float) : Unit {
+private fun calculatePrice(orig: Float, x:Float){
     val result = orig - (orig * x)
     println("최종가격은 ${result}입니다.")
 }
